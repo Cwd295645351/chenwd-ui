@@ -1,0 +1,7 @@
+{
+	"name": "chenwd-ui",
+	"private": true,
+	"scripts": {
+		"hello": "echo 'hello world"
+	}
+}
