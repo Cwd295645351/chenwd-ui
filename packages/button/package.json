@@ -1,7 +1,7 @@
 {
-	"name": "chenwd-ui",
+	"name": "@chen_wd_wade/button",
 	"version": "0.0.0",
-	"description": "Input",
+	"description": "Button",
 	"keywords": [
 		"vue",
 		"ui",
@@ -38,6 +38,8 @@
 	"peerDependencies": {
 		"vue": ">=3.0.0"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"@openxui/shared": "workspace:^"
+	},
 	"devDependencies": {}
 }

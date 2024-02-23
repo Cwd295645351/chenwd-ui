@@ -1,3 +1,7 @@
 {
-	"name": "chenwd-ui"
+	"name": "@chen_wd_wade/shared",
+	"dependencies": {
+		"@types/lodash": "^4.14.202",
+		"lodash": "^4.17.21"
+	}
 }

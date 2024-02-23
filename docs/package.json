@@ -1,3 +1,12 @@
 {
-	"name": "chenwd-ui"
+	"name": "@chen_wd_wade/docs",
+	"private": true,
+  "scripts": {
+    "dev": "echo dev",
+    "build": "echo build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
 }
