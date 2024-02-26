@@ -1,0 +1,11 @@
+{
+	"name": "@chen_wd_wade/demo",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev"
+	},
+	"dependencies": {
+		"@chen_wd_wade/ui": "workspace:^"
+	},
+	"devDependencies": {}
+}

@@ -18,16 +18,16 @@
 		"url": "https://github.com/Cwd295645351/chenwd-ui/issues"
 	},
 	"scripts": {
-		"build": "echo build",
+		"build": "vite build",
 		"test": "echo test"
 	},
-	"main": "",
-	"module": "",
+	"main": "./dist/chen_wd_wade-button.umd.js",
+	"module": "./dist/chen_wd_wade-button.mjs",
 	"types": "",
 	"exports": {
 		".": {
-			"require": "",
-			"module": "",
+			"require": "./dist/chen_wd_wade-button.umd.js",
+			"module": "./dist/chen_wd_wade-button.mjs",
 			"types": ""
 		}
 	},
@@ -39,7 +39,7 @@
 		"vue": ">=3.0.0"
 	},
 	"dependencies": {
-		"@openxui/shared": "workspace:^"
+		"@chen_wd_wade/shared": "workspace:^"
 	},
 	"devDependencies": {}
 }

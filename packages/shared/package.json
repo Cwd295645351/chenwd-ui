@@ -1,7 +1,44 @@
 {
 	"name": "@chen_wd_wade/shared",
+	"version": "0.0.0",
+	"description": "Button",
+	"keywords": [
+		"vue",
+		"ui",
+		"component library"
+	],
+	"author": "Wade Chen",
+	"license": "MIT",
+	"homepage": "https://github.com/Cwd295645351/chenwd-ui/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Cwd295645351/chenwd-ui.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Cwd295645351/chenwd-ui/issues"
+	},
+	"scripts": {
+		"build": "vite build",
+		"test": "echo test"
+	},
+	"main": "./dist/chen_wd_wade-shared.umd.js",
+	"module": "./dist/chen_wd_wade-shared.mjs",
+	"types": "",
+	"exports": {
+		".": {
+			"require": "./dist/chen_wd_wade-shared.umd.js",
+			"module": "./dist/chen_wd_wade-shared.mjs",
+			"types": ""
+		}
+	},
+	"files": [
+		"dist",
+		"README.md"
+	],
+	"peerDependencies": {},
 	"dependencies": {
 		"@types/lodash": "^4.14.202",
 		"lodash": "^4.17.21"
-	}
+	},
+	"devDependencies": {}
 }
