@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // demo/src/App.vue
-import { Button, Input } from "@chen_wd_wade/ui"
+import { Button, Input } from "@chenwdui/ui"
 </script>
 
 <template>

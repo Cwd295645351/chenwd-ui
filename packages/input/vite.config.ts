@@ -8,14 +8,14 @@ export default defineConfig({
 	build: {
 		lib: {
 			entry: "./src/index.ts",
-			name: "ChenwdwadeInput",
-			fileName: "chen_wd_wade-input"
+			name: "ChenwduiInput",
+			fileName: "chenwdui-input"
 		},
 		minify: false,
 		rollupOptions: {
 			external: [
-				// 除了 @chen_wd_wade/shared，未来可能还会依赖其他内部模块，不如用正则表达式将 @chen_wd_wade 开头的依赖项一起处理掉
-				/@chen_wd_wade.*/,
+				// 除了 @chenwdui/shared，未来可能还会依赖其他内部模块，不如用正则表达式将 @chenwdui 开头的依赖项一起处理掉
+				/@chenwdui.*/,
 				"vue"
 			]
 		}

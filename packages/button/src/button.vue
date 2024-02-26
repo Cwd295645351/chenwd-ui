@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // packages/button/src/button.vue
-import { hello } from "@chen_wd_wade/shared"
+import { hello } from "@chenwdui/shared"
 
 const props = withDefaults(
 	defineProps<{

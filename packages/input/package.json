@@ -1,5 +1,5 @@
 {
-	"name": "@chen_wd_wade/input",
+	"name": "@chenwdui/input",
 	"version": "0.0.0",
 	"description": "Input",
 	"keywords": [
@@ -21,14 +21,14 @@
 		"build": "vite build",
 		"test": "echo test"
 	},
-	"main": "./dist/chen_wd_wade-input.umd.js",
-	"module": "./dist/chen_wd_wade-input.mjs",
-	"types": "",
+	"main": "./dist/chenwdui-input.umd.js",
+	"module": "./dist/chenwdui-input.mjs",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"require": "./dist/chen_wd_wade-input.umd.js",
-			"module": "./dist/chen_wd_wade-input.mjs",
-			"types": ""
+			"require": "./dist/chenwdui-input.umd.js",
+			"module": "./dist/chenwdui-input.mjs",
+			"types": "./dist/index.d.ts"
 		}
 	},
 	"files": [
@@ -39,7 +39,7 @@
 		"vue": ">=3.0.0"
 	},
 	"dependencies": {
-		"@chen_wd_wade/shared": "workspace:^"
+		"@chenwdui/shared": "workspace:^"
 	},
 	"devDependencies": {}
 }

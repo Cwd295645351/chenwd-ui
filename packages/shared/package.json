@@ -1,5 +1,5 @@
 {
-	"name": "@chen_wd_wade/shared",
+	"name": "@chenwdui/shared",
 	"version": "0.0.0",
 	"description": "Button",
 	"keywords": [
@@ -21,14 +21,14 @@
 		"build": "vite build",
 		"test": "echo test"
 	},
-	"main": "./dist/chen_wd_wade-shared.umd.js",
-	"module": "./dist/chen_wd_wade-shared.mjs",
-	"types": "",
+	"main": "./dist/chenwdui-shared.umd.js",
+	"module": "./dist/chenwdui-shared.mjs",
+	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"require": "./dist/chen_wd_wade-shared.umd.js",
-			"module": "./dist/chen_wd_wade-shared.mjs",
-			"types": ""
+			"require": "./dist/chenwdui-shared.umd.js",
+			"module": "./dist/chenwdui-shared.mjs",
+			"types": "./dist/index.d.ts"
 		}
 	},
 	"files": [

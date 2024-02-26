@@ -1,12 +1,10 @@
 {
-	"name": "@chen_wd_wade/docs",
+	"name": "@chenwdui/docs",
 	"private": true,
-  "scripts": {
-    "dev": "echo dev",
-    "build": "echo build"
-  },
-  "dependencies": {
-  },
-  "devDependencies": {
-  }
+	"scripts": {
+		"dev": "echo dev",
+		"build": "echo build"
+	},
+	"dependencies": {},
+	"devDependencies": {}
 }

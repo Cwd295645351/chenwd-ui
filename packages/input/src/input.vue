@@ -1,6 +1,6 @@
 <script setup lang="ts">
 // packages/input/src/input.vue
-import { hello } from "@chen_wd_wade/shared"
+import { hello } from "@chenwdui/shared"
 
 withDefaults(
 	defineProps<{
