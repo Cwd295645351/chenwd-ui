@@ -5,7 +5,7 @@
 		"dev": "vite dev"
 	},
 	"dependencies": {
+		"@chenwdui/button": "workspace:^",
 		"@chenwdui/ui": "workspace:^"
-	},
-	"devDependencies": {}
+	}
 }
