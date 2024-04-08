@@ -1,0 +1,54 @@
+{
+  "name": "@chenwdui/build",
+  "version": "0.0.0",
+  "description": "Build",
+  "private": false,
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "Wade Chen",
+  "license": "MIT",
+  "homepage": "https://github.com/Cwd295645351/chenwd-ui/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cwd295645351/chenwd-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cwd295645351/chenwd-ui/issues"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./dist/chenwdui-build.umd.js",
+  "peerDependencies": {
+    "vite": ">=3.0.0",
+    "vue": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "vue": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "type-fest": "^4.15.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-replace": "^5.0.5",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "typescript": "^5.3.3",
+    "vite-plugin-inspect": "^0.8.3"
+  },
+  "module": "./dist/chenwdui-build.mjs",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/chenwdui-build.umd.js",
+      "import": "./dist/chenwdui-build.mjs",
+      "types": "./dist/src/index.d.ts"
+    }
+  }
+}

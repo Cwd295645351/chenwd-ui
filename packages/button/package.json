@@ -1,46 +1,46 @@
 {
-	"name": "@chenwdui/button",
-	"version": "0.0.0",
-	"description": "Button",
-	"private": false,
-	"keywords": [
-		"vue",
-		"ui",
-		"component library"
-	],
-	"author": "Wade Chen",
-	"license": "MIT",
-	"homepage": "https://github.com/Cwd295645351/chenwd-ui/blob/master/README.md",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Cwd295645351/chenwd-ui.git"
-	},
-	"bugs": {
-		"url": "https://github.com/Cwd295645351/chenwd-ui/issues"
-	},
-	"scripts": {
-		"build": "vite build",
-		"test": "echo test"
-	},
-	"main": "./dist/chenwdui-button.umd.js",
-	"module": "./dist/chenwdui-button.mjs",
-	"types": "./dist/index.d.ts",
-	"exports": {
-		".": {
-			"require": "./dist/chenwdui-button.umd.js",
-			"module": "./dist/chenwdui-button.mjs",
-			"types": "./dist/index.d.ts"
-		}
-	},
-	"files": [
-		"dist",
-		"README.md"
-	],
-	"peerDependencies": {
-		"vue": ">=3.0.0"
-	},
-	"dependencies": {
-		"@chenwdui/shared": "workspace:^"
-	},
-	"devDependencies": {}
+  "name": "@chenwdui/button",
+  "version": "0.0.0",
+  "description": "Button",
+  "private": false,
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "author": "Wade Chen",
+  "license": "MIT",
+  "homepage": "https://github.com/Cwd295645351/chenwd-ui/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cwd295645351/chenwd-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cwd295645351/chenwd-ui/issues"
+  },
+  "scripts": {
+    "build": "vite build",
+    "test": "echo test"
+  },
+  "main": "./dist/chenwdui-button.umd.js",
+  "module": "./dist/chenwdui-button.mjs",
+  "types": "./dist/src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/chenwdui-button.umd.js",
+      "import": "./dist/chenwdui-button.mjs",
+      "types": "./dist/src/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "dependencies": {
+    "@chenwdui/shared": "workspace:^"
+  },
+  "devDependencies": {}
 }
